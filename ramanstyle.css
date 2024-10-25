@@ -1,0 +1,39 @@
+html, body {
+    height: 200%;
+    margin: 0;
+    --s: 200px; /* control the size */
+    --c1: #1d1d1d;
+    --c2: #4e4f51;
+    --c3: #3c3c3c;
+}
+
+/* Apply the patterned background only to the header */
+.header {
+    background:
+      repeating-conic-gradient(from 30deg, #0000 0 120deg, var(--c3) 0 50%) 
+      calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
+      repeating-conic-gradient(from 30deg, var(--c1) 0 60deg, var(--c2) 0 120deg, var(--c3) 0 50%);
+    background-size: var(--s) calc(var(--s)*tan(30deg));
+    padding: 300px;
+    color: #fff;
+}
+
+/* Rest of the page with a solid background color */
+body {
+    background-color: #1d1d1d;
+}
+
+.content {
+    padding: 50px;
+    background-color: #1d1d1d;
+    margin-top: 20px;
+    text-align: center;
+}
+
+h2{
+    color: #b7b28c;
+}
+
+p{
+    color: #b7b28c;
+}
