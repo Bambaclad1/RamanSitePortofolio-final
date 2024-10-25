@@ -1,21 +1,46 @@
 html, body {
-    height: 200%;
+    height: 100%;
+    padding: 0px;
     margin: 0;
-    --s: 200px; /* control the size */
+    --s: 400px; /* control the size */
     --c1: #1d1d1d;
     --c2: #4e4f51;
     --c3: #3c3c3c;
 }
 
-/* Apply the patterned background only to the header */
 .header {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
     background:
-      repeating-conic-gradient(from 30deg, #0000 0 120deg, var(--c3) 0 50%) 
-      calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
-      repeating-conic-gradient(from 30deg, var(--c1) 0 60deg, var(--c2) 0 120deg, var(--c3) 0 50%);
+    repeating-conic-gradient(from 30deg,#0000 0 120deg,var(--c3) 0 50%) 
+     calc(var(--s)/2) calc(var(--s)*tan(30deg)/2),
+    repeating-conic-gradient(from 30deg,var(--c1) 0 60deg,var(--c2) 0 120deg,var(--c3) 0 50%);
     background-size: var(--s) calc(var(--s)*tan(30deg));
-    padding: 300px;
+    padding: 250px;
     color: #fff;
+}
+.header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    /*code added to be sure*/
+    width: 150px;
+    height: 150px; 
+    object-fit: cover;
+    
+    /*final touch positioning the image*/
+    position: relative;
+    top: 50%; 
+    transform: translateY(-50%); 
+}
+.header h1{
+    text-align: center;
+    color: #b7b28c;
+    margin-top: -100px; /* Adjust this value as needed to move it higher */
 }
 
 /* Rest of the page with a solid background color */
