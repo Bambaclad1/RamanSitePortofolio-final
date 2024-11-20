@@ -92,9 +92,10 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 .header h2{
     text-shadow: -5px 5px 5px black;
 }
-.header p{
+.header b{
     font-size: 12px;
-    transform: translateY(1100%); 
+    transform: translateY(1000%); 
+    color: #d0ccbc;
 }
 
 
@@ -139,9 +140,9 @@ p{
     color: #d0ccbc;
 }
 
-.quote p {
+.quote b {
     margin-bottom: 20px;
-
+    color: #d0ccbc;
     display: flex;
     flex-direction: column; 
     align-items: center;
@@ -168,6 +169,7 @@ p{
     text-shadow: -5px 5px 5px black;
 }
 
+
 .skills img{
     margin-top: 80px;
     margin-bottom: 0px;
@@ -185,6 +187,66 @@ p{
 .skillsPart2 img{
     margin-top: 50px; 
     margin-left: 235px;  
+}
+
+.skillsPart2 b{
+    margin-bottom: 20px;
+    color: #d0ccbc;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 12px;
+    transform: translateY(1100%); 
+}
+
+.experiences{
+    margin-top: 200px; 
+}
+
+.experiences h1{
+    text-align: center;
+    color: #d0ccbc;
+    margin-bottom: 0px;
+    font-size: 50px;
+    text-shadow: -5px 5px 5px black;
+}
+
+.experiences b{
+    margin-bottom: 20px;
+    color: #d0ccbc;
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 12px;
+    transform: translateY(200%); 
+}
+.experiences img{
+    margin-top: 60px;
+    margin-left: 80px;  
+}
+
+.Contact{
+    margin-top: 50px; 
+}
+
+.Contact hr{
+    margin-bottom: 25px;
+}
+
+.Contact h1{
+    text-align: center;
+    color: #d0ccbc;
+    margin-bottom: 0px;
+    font-size: 50px;
+    text-shadow: -5px 5px 5px black;
+}
+
+.Contact p{
+    text-align: center;
+    font-size: 25px;
+    text-shadow: -5px 5px 5px black;
 }
 /*
 
