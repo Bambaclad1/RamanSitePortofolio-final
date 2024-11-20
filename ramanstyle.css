@@ -162,3 +162,8 @@ p{
     font-size: 50px;
     text-shadow: -5px 5px 5px black;
 }
+
+.skills img{
+    margin-top: 80px; /* Adjust this value as needed to move it higher */
+    margin-bottom: 0px; /* Adjust this value as needed to move it higher */
+}
