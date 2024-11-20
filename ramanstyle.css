@@ -151,19 +151,49 @@ p{
 }
 
 .skills{
-    margin-top: 300px; 
+    margin-top: 200px; 
 }
 
+.skills hr{
+
+
+    margin-bottom: 100px;
+}
 .skills h1{
     text-align: center;
     color: #d0ccbc;
-    margin-top: -80px; /* Adjust this value as needed to move it higher */
-    margin-bottom: 0px; /* Adjust this value as needed to move it higher */
+    margin-top: -80px;
+    margin-bottom: 0px;
     font-size: 50px;
     text-shadow: -5px 5px 5px black;
 }
 
 .skills img{
-    margin-top: 80px; /* Adjust this value as needed to move it higher */
-    margin-bottom: 0px; /* Adjust this value as needed to move it higher */
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: 120px;
 }
+.skills img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+
+}
+.skillsPart2 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.skillsPart2 img{
+    margin-top: 50px; 
+    margin-left: 235px;  
+}
+/*
+
+ONTHOUD
+
+MAAK
+WEBSITE
+IN  HET
+NEDERLANDS OF ENGELS NIET BEIDE
+BEDANKT
+- RAMAN
+*/
