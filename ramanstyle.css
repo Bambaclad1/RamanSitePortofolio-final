@@ -43,6 +43,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     font-size: 50px;
 }
 
+
 .header {
     position: relative; 
     display: flex;
@@ -62,7 +63,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px; /* Adjust this value as needed to move it higher */
+    margin-bottom: 0px; /* Adjust this value as needed to move it higher */
 
     /*code added to be sure*/
     width: 150px;
@@ -72,7 +73,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
     /*final touch positioning the image*/
     position: relative;
     top: 50%; 
-    transform: translateY(-50%); 
+    transform: translateY(-40%); 
 }
 .header h1{
     text-align: center;
@@ -238,18 +239,38 @@ p{
 .Contact h1{
     text-align: center;
     color: #d0ccbc;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     font-size: 50px;
     text-shadow: -5px 5px 5px black;
 }
 
-.Contact p{
-    text-align: center;
-    font-size: 25px;
-    text-shadow: -5px 5px 5px black;
+.Contact-content {
+    display: flex; /* Flexbox layout to align items */
+    align-items: center; /* Vertically align image and text */
+    justify-content: center; /* Center content within the parent container */
+    gap: 20px; /* Add spacing between the image and text */
 }
-/*
 
+.Contact img {
+    float: none; /* Override float if applied */
+    margin: 0; /* Reset margins to avoid unwanted spacing */
+    width: 100px; /* Set size of the image */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.Contact p {
+    text-align: left; /* Align text properly beside the image */
+    font-size: 25px; /* Keep your font size */
+    text-shadow: -5px 5px 5px black; /* Retain your existing shadow */
+    margin: 0; /* Remove default margins for better alignment */
+}
+
+.footer p{
+margin-top: 50px;    
+    width: 100%;
+    text-align: center;}
+
+/*
 ONTHOUD
 
 MAAK
@@ -258,4 +279,8 @@ IN  HET
 NEDERLANDS OF ENGELS NIET BEIDE
 BEDANKT
 - RAMAN
+
+TROUWENS VERANDER FONT
+
+EN MISSCHIEN FIX MOBILE DISPLAY!
 */
